@@ -1,94 +1,53 @@
 ---
 layout: post
-title:  "Jekyll 搭建静态博客"
+title:  "《精力管理》"
 date:   2015-02-15 22:14:54
-categories: jekyll
-tags: jekyll RubyGems
+categories: reading notes
+tags: reading notes
 ---
 
 * content
 {:toc}
 
-一直以来都想搭建一个自己的博客，但是近半年做项目太忙，再加上教研室的网络很坑爹，所以也一直没顾得上。之前用过 WordPress 托管在免费的京东云擎上，但是速度太慢。在知乎上看到一些相关的内容，于是选择了在github上用jekyll搭建博客。
 
 
+## 第一部分 如何做到全情投入
 
+### 第一章 什么事精力及如何管理精力
 
+#### 说在前面
 
-## 搭建过程
+* 精力就是做事情的能力。包括体能、情感、思维、意志四个方面。
+* 我们所有的想法、情感和行为都对精力有积极或消极的影响。
+* 精力，而非时间， 是高效表现的基础
+* 你一定要全情投入，优秀表现的难度在于，它需要从各个方面更有效地管理精力，达到最终目标。
+* 高效表现源于有技巧的精力管理。 
+* 领导者正是团体精力的统筹人。他们首先要具备个人精力管理技巧，然后才能调动、集中、投入和维持团队的集体精力。 
+* 全情投入是确保最优表现的最佳精力状态。
 
-在jekyll的官网上 [http://jekyllrb.com/](http://jekyllrb.com/) 其实已经说得比较明白了，我在这里还是简单的说一下吧。我用的是Windows系统。    
-主要环节有：安装Ruby，安装RubyGems，安装jekyll，安装代码高亮插件，安装node.js
+#### 精力管理的四个基本原则
 
-### 安装Ruby
+* 原则一： 全情投入需要调动四种独立且相关联的精力源： 体能，情感，思维和意志
+* 原则二： 因为使用过度和使用不足都会削弱精力， 必须不时更新精力以平衡消耗。
+* 原则三： 为了提高能力，我们必须突破自己的惯常极限， 模仿运动员进行系统训练。
+* 原则四： 积极的精力仪式习惯，即细致具体的精力管理方法， 是全情投入、保持高效表现的诀窍。“仪式习惯”指的是定义明确、具有高度计划性的行为。
 
-ruby官网下载安装：[https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)
+#### 管理精力的三个步骤
 
-安装完成后配置环境变量
+* 明确目标
+* 面对现实。制定变革的计划离不开对个人现状的清醒认知。
+* 付诸行动。 用实际行动缩小“现实的我”与“理想的我”
 
-在命令提示符中，得到ruby版本号，如下图，即安装成功
+### 第二章 成功人士罗杰遇到的5个障碍
 
-![](http://ww4.sinaimg.cn/large/7011d6cfjw1f2ue0e393vj20cu00t748.jpg)
-
-### 安装RubyGems
-
-官网下载 [http://rubygems.org/pages/download](http://rubygems.org/pages/download) rubygems-2.4.5.zip   
-
-cd到RubyGems目录   
-
-![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue1l2yscj20gk02amxj.jpg)
-
-执行安装   
-
-![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue1w8eqnj20bx00hglg.jpg)  
+* 体能不足是罪魁祸首
+* 情感账户告急
+* 徒劳地强打精神
+* 到底什么最重要
 
 ### 用RubyGems安装Jekyll
 
-执行下面的语句安装   
-
-![](http://ww4.sinaimg.cn/large/7011d6cfjw1f2ue2g2p3uj207x00ft8j.jpg)
-
-安装结束画面   
-
-![](http://ww4.sinaimg.cn/large/7011d6cfjw1f2ue32drwhj20hv09xq5m.jpg)
-
-至此jekyll就已经安装完毕了，后续就是个性化的自己设定了。
-
 ### 创建博客
-
-在d盘新建一个工作区jekyllWorkspace
-
-cd到jekyllWorkspace   
-
-执行jekyll new name创建新的工作区   
-
-![](http://ww3.sinaimg.cn/large/7011d6cfjw1f2ue3lt31nj20cj02nt8u.jpg)
-
-文件结构如下：   
-
-![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue3ujsybj20ek06wabh.jpg)
-
-cd到博客文件夹，开启服务器   
-
-![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue47y9lgj20ao00f0sl.jpg)
-
-watch为了检测文件夹内的变化，即修改后不需要重新启动jekyll
-
-我的环境下启动报错(你的可能没有)，再安装yajl-ruby和rouge  
-
-![](http://ww4.sinaimg.cn/large/7011d6cfjw1f2ue4nelnxj20dd077q49.jpg)
-
-再次启动服务器成功
-
-![](http://ww4.sinaimg.cn/large/7011d6cfjw1f2ue4v42koj20g505bdgy.jpg)
-
-访问 http://localhost:4000/   
-
-![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue56ckwoj20je0eumz3.jpg)
-
-详细文章页面   
-
-![](http://ww2.sinaimg.cn/large/7011d6cfjw1f2ue5f3j9cj20je0gyq7a.jpg)
 
 ## 后续
 
