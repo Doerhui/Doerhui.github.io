@@ -2,7 +2,7 @@
 layout: post
 title:  "《精力管理》"
 date:   2015-02-15 22:14:54
-categories: reading notes
+categories: reading
 tags: reading notes
 ---
 
@@ -45,9 +45,7 @@ tags: reading notes
 * 徒劳地强打精神
 * 到底什么最重要
 
-### 用RubyGems安装Jekyll
 
-### 创建博客
 
 ## 后续
 
