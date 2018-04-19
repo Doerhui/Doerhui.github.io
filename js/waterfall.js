@@ -13,7 +13,6 @@
 
   /**
      * 内容JSON
-     */
      */   
 /**
   var demoContent = [
