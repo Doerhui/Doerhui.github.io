@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "《精力管理》"
-date:   2018-04-19
+date:   2018-04-19 22:14:54
 categories: reading
 tags: reading 读书笔记
 ---
