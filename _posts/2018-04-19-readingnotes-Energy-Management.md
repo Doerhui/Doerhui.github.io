@@ -46,7 +46,7 @@ tags: reading 读书笔记
 * 到底什么最重要
 
 
-![图片](image/jekyll.png)
+![图片](/image/jekyll.png)
 
 
 *  本文是用Markdown格式来写的，相关语法可参考： [Markdown 语法说明 (简体中文版) http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)  
